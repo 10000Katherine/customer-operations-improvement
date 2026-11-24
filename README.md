@@ -48,10 +48,10 @@ A customer support operation has uneven case resolution performance across queue
 - [SQL KPI verification](sql/kpi_analysis.sql) and [original authored queue query](sql/author_original_queue_query.sql)
 - [Synthetic source data — CSV](data/support-tickets.csv)
 - [Metrics, assumptions and limitations](reports/metrics_and_assumptions.md)
-- [Power BI measures and model notes](powerbi/dax_measures.md)
+- [Power BI Desktop source report](powerbi/operations_dashboard.pbix) and [DAX / model notes](powerbi/dax_measures.md)
 - [How to reproduce](REPRODUCE.md)
 
-**Power BI source report:** `operations_dashboard.pbix` is available in the completed local portfolio bundle and is pending separate binary upload to this repository. No screenshot here is represented as a live Power BI dashboard.
+**Power BI source report:** [Download the Power BI Desktop file](powerbi/operations_dashboard.pbix) (`.pbix`) to inspect the DAX measures and interactive report, including the monthly-volume trend. The static screenshots above were captured from an earlier PDF export and do not show the later monthly chart.
 
 ## Analytical workflow
 

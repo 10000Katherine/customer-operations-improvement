@@ -1,5 +1,8 @@
 # Dashboard screenshots
 
-The full-page preview from the previous PDF predates the monthly trend visual. A final full-page screenshot from Power BI, showing the updated monthly chart, should be uploaded here as `dashboard_final.png` before promoting the repository to recruiters.
+- [Executive overview — exported PDF capture](dashboard_overview_export.svg)
+- [Priority / Queue analysis — exported PDF capture](priority_queue_analysis_export.svg)
 
-Do not represent old screenshots as the current interactive report.
+These are **archived PDF-export images**. The original Power BI Desktop report includes a later monthly volume chart, which is not visible in the older exported overview screenshot. Do not present these as a live dashboard or as the latest visual state.
+
+To inspect the final interactive report, open [`powerbi/operations_dashboard.pbix`](../powerbi/operations_dashboard.pbix).

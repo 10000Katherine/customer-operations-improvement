@@ -1,9 +1,12 @@
 # Power BI source report
 
-The Power BI Desktop report file `operations_dashboard.pbix` is part of the completed local portfolio package but is **not uploaded to this GitHub repository yet**. Please upload that binary using GitHub's **Add file → Upload files** to this folder.
+**[Download the original Power BI Desktop report](operations_dashboard.pbix)**
 
-The local file is `customer_operations_practice.pbix`; rename it to `operations_dashboard.pbix` in this folder.
+- File: `operations_dashboard.pbix` (originally named `customer_operations_practice.pbix`)
+- Source: `../data/support-tickets.csv`
+- Contents: two report pages, KPI cards, queue-level comparisons, queue/priority detail, monthly ticket-volume trend and a queue slicer
+- The monthly volume visual excludes the incomplete February 2024 by a **visual-level** date filter; overall KPI cards still use all 4,000 records.
 
-The latest source report includes a Monthly Ticket Volume chart with a visual-only date filter to exclude the incomplete February 2024. The historical PDF export is not the same version and should not be labeled as final.
+**To open:** Use Power BI Desktop on Windows. If the imported CSV path on your computer differs, go to **Home → Transform data**, edit the CSV source file path in the relevant query and select **Close & Apply**.
 
-If Power BI prompts for a local data path on another machine: open Transform data → Source step and point to `data/support-tickets.csv`.
+The archived screenshots in `../screenshots/` were taken from a PDF export prior to the monthly-volume visual; they are **not** screenshots of the latest `.pbix`.
