@@ -20,6 +20,14 @@ A customer support operation has uneven case resolution performance across queue
 
 **Key finding:** Technical (367 breaches) and Integrations (171 breaches) account for **65.3% of all 824 breaches**. Technical contributes the highest absolute number; Integrations has the lowest resolution SLA rate (**64.30%**).
 
+## Dashboard screenshots
+
+![Power BI operational performance overview, captured from the exported PDF](screenshots/dashboard_overview_export.svg)
+
+*Static screenshot extracted from the supplied two-page Power BI PDF. It shows the baseline KPI cards and queue SLA analysis. This PDF export predates the later monthly-volume chart; therefore that chart is not shown in this screenshot.*
+
+[View priority and queue detail page](screenshots/priority_queue_analysis_export.svg)
+
 ## Analysis and proposed action
 
 | Queue | Tickets | SLA compliance | Breaches |
