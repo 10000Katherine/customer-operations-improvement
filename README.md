@@ -1,6 +1,6 @@
 # Customer Support Operations Improvement
 
-**Business Analysis · Process Improvement · Power BI · SQL · DMAIC**
+**Business Analysis · Process Improvement · Power BI · SQL · DMAIC · Jira · Confluence**
 
 > **Portfolio case study, not a real-company engagement.** The source is a public **synthetic** SaaS support-ticket dataset. A **72-hour resolution SLA** was assumed for analytical purposes. Recommendations are proposed, **not implemented outcomes**.
 
@@ -49,9 +49,14 @@ A customer support operation has uneven case resolution performance across queue
 - [Synthetic source data — CSV](data/support-tickets.csv)
 - [Metrics, assumptions and limitations](reports/metrics_and_assumptions.md)
 - [Power BI Desktop source report](powerbi/operations_dashboard.pbix) and [DAX / model notes](powerbi/dax_measures.md)
+- [Requirements management — Jira & Confluence](requirements-management/README.md): BRD, epics, stories, acceptance criteria, traceability and change-control exercises
 - [How to reproduce](REPRODUCE.md)
 
 **Power BI source report:** [Download the Power BI Desktop file](powerbi/operations_dashboard.pbix) (`.pbix`) to inspect the DAX measures and interactive report, including the monthly-volume trend. The static screenshots above were captured from an earlier PDF export and do not show the later monthly chart.
+
+## Requirements management
+
+The improvement proposal was translated into a draft Confluence BRD and a Jira Kanban backlog with **3 epics, 6 user stories and 3 subtasks**. Practice included dependency links, workflow states, JQL, acceptance criteria and six requirement-to-story Smart Links. The proposed threshold changes were impact-analysis exercises, not approved or implemented changes. See the [requirements management module](requirements-management/README.md).
 
 ## Analytical workflow
 
