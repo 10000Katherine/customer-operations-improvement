@@ -4,6 +4,10 @@
 
 > **Portfolio case study, not a real-company engagement.** The source is a public **synthetic** SaaS support-ticket dataset. A **72-hour resolution SLA** was assumed for analytical purposes. Recommendations are proposed, **not implemented outcomes**.
 
+![Operational analysis overview — actual simulated baseline and proposed target](screenshots/portfolio_analysis_overview.svg)
+
+[Power BI source](powerbi/operations_dashboard.pbix) · [Business case](reports/business_case.md) · [Jira & Confluence deliverables](requirements-management/README.md) · [SQL validation](sql/kpi_analysis.sql)
+
 ## Business problem
 
 A customer support operation has uneven case resolution performance across queues. I analyzed **4,000 simulated tickets** with SQLite and Power BI to identify service-level gaps, measure workload, and propose a controlled improvement pilot.
@@ -20,7 +24,7 @@ A customer support operation has uneven case resolution performance across queue
 
 **Key finding:** Technical (367 breaches) and Integrations (171 breaches) account for **65.3% of all 824 breaches**. Technical contributes the highest absolute number; Integrations has the lowest resolution SLA rate (**64.30%**).
 
-## Dashboard screenshots
+## Power BI — original report evidence
 
 ![Power BI operational performance overview, captured from the exported PDF](screenshots/dashboard_overview_export.svg)
 
@@ -54,9 +58,25 @@ A customer support operation has uneven case resolution performance across queue
 
 **Power BI source report:** [Download the Power BI Desktop file](powerbi/operations_dashboard.pbix) (`.pbix`) to inspect the DAX measures and interactive report, including the monthly-volume trend. The static screenshots above were captured from an earlier PDF export and do not show the later monthly chart.
 
-## Requirements management
+## Business analysis — Jira & Confluence
 
-The improvement proposal was translated into a draft Confluence BRD and a Jira Kanban backlog with **3 epics, 6 user stories and 3 subtasks**. Practice included dependency links, workflow states, JQL, acceptance criteria and six requirement-to-story Smart Links. The proposed threshold changes were impact-analysis exercises, not approved or implemented changes. See the [requirements management module](requirements-management/README.md).
+![Requirements traceability overview — diagram of the actual guided-practice backlog](screenshots/portfolio_requirements_overview.svg)
+
+*Illustrative portfolio diagram based on the Jira work-item IDs and Confluence BRD v1.0. It is not a screenshot of the Atlassian interface.*
+
+The improvement proposal was translated into a draft Confluence BRD and a Jira Kanban backlog with **3 epics, 6 user stories and 3 subtasks**. The guided practice covered priorities, dependency links, workflow states, JQL, acceptance criteria and six requirement-to-story Smart Links.
+
+| Deliverable | Evidence |
+|---|---|
+| Business requirements & scope | [BRD v1.0](requirements-management/Business_Requirements_v1.0.md) |
+| Epics, user stories & acceptance criteria | [Jira backlog](requirements-management/User_Stories.md) |
+| Requirements traceability | [Traceability matrix](requirements-management/Traceability_Matrix.md) |
+| Workflow, task dependencies & JQL | [Jira workflow and queries](requirements-management/Jira_Workflow_and_JQL.md) |
+| Change impact analysis | [Change-control exercises](requirements-management/Change_Management.md) |
+
+The BRD remains a draft baseline. The proposed 36-hour warning and 54-hour escalation changes were impact-analysis exercises, not approved or implemented changes. No executed UAT or production release is claimed. Original Confluence PDF and interface captures are maintained separately pending binary upload.
+
+[Explore the full requirements management module](requirements-management/README.md).
 
 ## Analytical workflow
 
